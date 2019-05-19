@@ -1,0 +1,1 @@
+https://www.codewars.com/kata/prime-streaming-pg-13/train/java
