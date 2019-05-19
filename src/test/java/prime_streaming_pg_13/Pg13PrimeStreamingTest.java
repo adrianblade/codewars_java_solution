@@ -39,7 +39,7 @@ public class Pg13PrimeStreamingTest {
 
     private void test(int skip, int limit, int... expect) {
         long startTime = System.currentTimeMillis();
-        int[] found = Pg13PrimeStreaming.stream().skip(skip).limit(limit).toArray();
+        int[] found = Pg13PrimeStreaming.stream2().skip(skip).limit(limit).toArray();
         long endTime = System.currentTimeMillis();
         long timeElapsed = endTime - startTime;
         System.out.println("Execution time in milliseconds: " + timeElapsed);
