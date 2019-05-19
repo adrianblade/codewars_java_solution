@@ -1,6 +1,6 @@
 # Codewars Solutions on Java
 
-### Level [![CodeWars](https://www.codewars.com/users/adrianblade/badges/micro)](https://www.codewars.com/users/adrianblade)
+[![CodeWars](https://www.codewars.com/users/adrianblade/badges/micro)](https://www.codewars.com/users/adrianblade)
 
 
 ## My Solutions
