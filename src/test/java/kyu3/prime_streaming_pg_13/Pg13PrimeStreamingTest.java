@@ -1,4 +1,4 @@
-package prime_streaming_pg_13;
+package kyu3.prime_streaming_pg_13;
 
 import org.junit.Test;
 import kyu3.prime_streaming_pg_13.Pg13PrimeStreaming;
