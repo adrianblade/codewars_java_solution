@@ -2,14 +2,14 @@ package kyu3.prime_streaming_pg_13;
 
 import java.util.stream.IntStream;
 
-public class Primes {
+public class Pg13PrimeStreaming {
 
     private static final int LIMIT = 15 * 1000 * 1000 + 100000 * 5;
 
     public static IntStream stream() {
         return IntStream.range(2, LIMIT)
                 .parallel()
-                .filter(Primes::isPrime);
+                .filter(Pg13PrimeStreaming::isPrime);
     }
 
     private static boolean isPrime(int num){

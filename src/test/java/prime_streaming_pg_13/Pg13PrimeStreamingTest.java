@@ -1,11 +1,11 @@
 package prime_streaming_pg_13;
 
 import org.junit.Test;
-import kyu3.prime_streaming_pg_13.Primes;
+import kyu3.prime_streaming_pg_13.Pg13PrimeStreaming;
 
 import static org.junit.Assert.assertArrayEquals;
 
-public class PrimesTest {
+public class Pg13PrimeStreamingTest {
 
     @Test
     public void test_0_10() {
@@ -39,7 +39,7 @@ public class PrimesTest {
 
     private void test(int skip, int limit, int... expect) {
         long startTime = System.currentTimeMillis();
-        int[] found = Primes.stream().skip(skip).limit(limit).toArray();
+        int[] found = Pg13PrimeStreaming.stream().skip(skip).limit(limit).toArray();
         long endTime = System.currentTimeMillis();
         long timeElapsed = endTime - startTime;
         System.out.println("Execution time in milliseconds: " + timeElapsed);
